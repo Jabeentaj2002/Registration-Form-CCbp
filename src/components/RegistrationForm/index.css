@@ -1,0 +1,72 @@
+/* Write your CSS code here */
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.registration-heading {
+  color: #ea580c;
+}
+
+.user-credentials {
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-name-label {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.firstname-input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.submit-btn {
+  border: 0;
+  background-color: #ea580c;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+  align-self: center;
+}
+
+.submitted-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 8px;
+  padding: 20px;
+  /* width: 800px; */
+}
+
+.success-img {
+  height: 100px;
+  width: 100px;
+}
+
+.another-response-btn {
+  background-color: #ea580c;
+  border: 0;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.submitted-txt {
+  font-size: 24px;
+  font-weight: 600;
+}
